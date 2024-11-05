@@ -1,0 +1,106 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Alterado para organizar o cabeçalho no topo */
+}
+
+/* Cabeçalho */
+.site-header {
+    width: 100%;
+    text-align: center;
+    background-color: #001f3f; /* Azul marinho */
+    color: white;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.site-header h1, .site-header h2 {
+    margin: 5px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+/* Conteúdo Principal e Barra Lateral */
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* Barra de navegação lateral */
+.side-nav {
+    width: 200px;
+    background-color: #001f3f; /* Azul marinho */
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-nav li {
+    margin: 15px 0;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+}
+
+.counter-section, .news-section {
+    margin-bottom: 20px;
+}
+
+/* Contador de Visitas */
+.counter-section {
+    background-color: #f0f8ff; /* Azul claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#visit-counter {
+    font-size: 24px;
+    color: #001f3f; /* Azul marinho */
+}
+
+/* Chamadas de Notícias */
+.news-section {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.news-section h3 {
+    margin-top: 0;
+}
+
+/* Rodapé */
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #001f3f;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
